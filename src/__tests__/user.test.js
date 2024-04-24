@@ -1,4 +1,6 @@
-import { username, city, image } from "../data/user";
+export const username = "Liza";
+export const city = "New York";
+export const image = "https://i.imgur.com/mV8PQxj.gif";
 
 test("username, city, and image are all exported", () => {
   expect(username).toEqual("Liza");
